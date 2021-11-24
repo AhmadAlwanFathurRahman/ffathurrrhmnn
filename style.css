@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 20px 10%;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 550;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 45px;
+    text-decoration: none;
+    margin-right: auto;
+    color: #060D29;
+    font-family: "poppins";
+    font-weight: 900;
+}
+
+.logo span{
+    color: #B20033;
+}
+
+.nav-link a{
+    color: #060D29;
+    text-decoration: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link a:hover{
+    color: #94002a;
+    cursor: pointer;
+}
+
+a.tombol-merah{
+    background-color: #B20033;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 650;
+    margin-left: 20px;
+}
+
+a.tombol-merah:hover{
+    background-color: #94002a;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+/* MAIN HOME */
+
+.main-home{
+    scroll-margin-top: 200px;
+}
+
+.text-1{
+    font-family: 'poppins';
+    margin: 17rem 10%;
+    color: #060D29;
+}
+
+.text-1 h1{
+    font-size: 180px;
+    margin-top: -30px;
+}
+
+.text-1 h2{
+    font-size: 90px;
+    margin-top: -90px;
+}
+
+.text-1 h3{
+    font-size: 75px;
+    margin-top: -50px;
+}
+
+.text-1 h4{
+    font-size: 125px;
+    margin-top: -70px;
+}
+
+.text-1 p{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+.foto-1 img{
+    width: 900px;
+    margin: -50px 1000px 0px;
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.send-me {
+    font-family: "poppins";
+    margin: -100px 0px 0px 180px;
+    font-size: 20px;
+}
+
+.send-me a{
+    color: #060D29;
+    text-decoration:none;
+}
+
+.send-me a:hover{
+    color: #B20033;
+    text-decoration: underline;
+}
+
+#portofolio {
+    scroll-margin-top: 100px;
+}
+
+.main-portofolio{
+    margin: 160px 10%;
+    font-family: 'poppins';
+    color: #060D29;
+    text-align: center;
+}
+
+.main-portofolio h1{
+    font-size: 50px;
+}
+
+.main-portofolio p{
+    margin-top: 20px;
+    column-count: 2;
+}
+
+.image-portofolio img{
+    width: 500px;
+    margin-top: 30px;
+}
+
+#profile{
+    scroll-margin-top: 100px;
+}
+
+.main-profile{
+    color: #060D29;
+    font-family: 'poppins';
+    margin: 0 10%;
+}
+
+.main-profile h1{
+    font-size: 50px;
+}
+
+.aboutme h2{
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.aboutme p{
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.basic-information h3{
+    font-size: 35px;
+    margin: -1000px 0px 0px 800px;
+}
+
+.basic1{
+    margin: 15px 0px 0px 800px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.basic2 ul{
+    margin: -230px 0px 0px 980px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.skill h4{
+    font-size: 35px;
+    margin: 40px 0px 0px 800px;
+}
+
+.skill ul{
+    margin: 10px 0px 0px 800px;
+    font-size: 25px;
+}
+
+#contact {
+    scroll-margin-top: 100px;
+}
+
+.footer{
+    background-color: #060D29;
+    margin-top: 400px;
+    font-family: 'poppins';
+    height: 550px;
+}
+
+.contact h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    padding-top: 70px;
+}
+
+.sosmed img{
+    width: 40px;
+}
+
+.fb img{
+    width: 150px
+}
+
+.sosmed ul{
+    margin-top: 20px;
+}
+
+.sosmed ul li{
+    float: left;
+    padding: 0px 5px 0px 5px;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.text1{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 40%;
+}
+
+#nama{
+    background-color: white;
+    float: right;
+    margin: -280px 640px 0px 0px;
+    padding: 15px 80px 15px 30px;
+    border-radius: 15px;
+    border: white;
+    outline: none;
+}
+
+#email{
+    background-color: white;
+    float: right;
+    padding: 15px 80px 15px 30px;
+    border-radius: 15px;
+    margin-top:-280px ;
+    margin-right: 350px;
+    border: white;
+    outline: none;
+}
+
+#kritik{
+    background-color: white;
+    float: right;
+    margin: -220px 350px 0px 0px;
+    padding: 15px 370px 150px 30px;
+    border: white;
+    border-radius: 15px;
+    outline: none;
+}
+
+#submit{
+    background-color: #B20033;
+    float: right;
+    margin: -10px 790px 0px 0px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    border: white;
+    outline: none;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/* .main-profile{
+    color: #060D29;
+    font-family: 'poppins';
+    margin: 0 10%;
+}
+
+.main-profile h1{
+    font-size: 50px;
+}
+
+.main-profile h2{
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.main-profile h3{
+    font-size: 35px;
+    margin: -50px 0px 0px 800px;
+}
+
+.main-profile h4{
+    font-size: 35px;
+    margin: 50px 0px 0px 800px;
+}
+
+.main-profile p{
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.basic1 ul{
+    margin: -930px 0px 0px 800px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.basic2 ul{
+    margin: -230px 0px 0px 980px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.skill ul{
+    margin: -230px 0px 0px 880px;
+    font-size: 25px;
+} */
+
+
+@media screen and (max-width: 500px){
+    .logo{
+        font-size: 18px;
+        margin-top: 0px;
+        margin-right: 18px;
+    }
+
+    .nav-link{
+        font-size: 5px;
+        font-weight: 700;
+        margin-right: 80px;
+        align-content: center;
+    }
+
+    .nav-link li{
+        padding: 0px 2px;
+    }
+
+    .nav-link li:hover{
+        color: #94002a;
+    }
+
+    a.tombol-merah{
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: -80px;
+        padding: 3px 15px;
+        border-radius: 15px;
+        margin-top: 0px;
+    }
+
+    a.tombol-merah:hover{
+        background-color: #94002a;
+        font-size: 21px;
+    }
+
+    /* MAIN HOME */
+
+    .text-1{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: auto;
+    }
+    
+    .text-1 h1{
+        font-size: 60px;
+        margin-top: -100px;
+    }
+    
+    .text-1 h2{
+        font-size: 32px;
+        margin-top: -28px;
+    }
+    
+    .text-1 h3{
+        font-size: 26px;
+        margin-top:-15px;
+    }
+    
+    .text-1 h4{
+        font-size: 44px;
+        margin-top: -22px;
+    }
+
+    .text-1 p{
+        font-style: italic;
+        font-size: 10px;
+        margin-left: -5px;
+        margin-top: -10px;
+    }
+
+    .foto-1 img{
+        width: 350px;
+        margin: 0;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 40px;
+        margin-bottom: 00px;
+    }
+
+    .send-me {
+        font-family: "poppins";
+        margin: 100px 0px 0px 50px;
+        font-size: 9px;
+    }
+    
+    .send-me a{
+        color: white;
+        text-decoration:none;
+        background-color: #B20033;
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+
+    .send-me a:hover{
+        background-color: #060D29;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .main-portofolio{
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .main-portofolio h1{
+        font-size: 30px;
+    }
+    
+    .main-portofolio p{
+        column-count: 1;
+        font-size: 10px;
+    }
+
+    .image-portofolio{
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .image-portofolio img{
+        width: 150px;
+        margin-top: -5px;
+        box-sizing: border-box;
+    }
+
+    #profile{
+        scroll-margin-top: 190px;
+    }
+
+    .main-profile{
+        color: #060D29;
+        font-family: 'poppins';
+        margin: 0 10%;
+    }
+    
+    .main-profile h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .aboutme h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .aboutme p{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    
+    .basic-information h3{
+        font-size: 15px;
+        text-align: center;
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .basic1{
+        margin: 10px 0px 0px 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    .basic2 ul{
+        margin: -120px 0px 0px 120px;
+        width: 80%;
+        font-size: 13px;
+        list-style: none;
+    }
+    
+    .skill h4{
+        font-size: 15px;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .skill ul{
+        margin: 10px 0px 0px 20px;
+        font-size: 13px;
+    }
+
+    .footer{
+        background-color: #060D29;
+        margin-top: 100px;
+        font-family: 'poppins';
+        height: 900px;
+    }
+    
+    .contact h1{
+        color: white;
+        font-size: 20px;
+        margin-left: 130px;   
+    }
+    
+    .sosmed img{
+        width: 20px;
+    }
+    
+    .fb img{
+        width: 50px
+    }
+    
+    .sosmed ul{
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    
+    .sosmed ul li{
+        float: left;
+        padding: 0px 0px 0px 0px;
+        list-style: none;
+    }
+    
+    .text1{
+        color: white;
+        margin-top: 50px;
+        margin-left: 100px;
+        width: 50%;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    #nama{
+        background-color: white;
+        float: right;
+        margin: 20px 120px 0px 0px;
+        padding: 15px 20px 15px 30px;
+        border-radius: 15px;
+        border: white;
+        outline: none;
+    }
+    
+    #email{
+        background-color: white;
+        float: right;
+        padding: 15px 20px 15px 30px;
+        border-radius: 15px;
+        margin-top:10px ;
+        margin-right: 120px;
+        border: white;
+        outline: none;
+    }
+    
+    #kritik{
+        background-color: white;
+        float: right;
+        margin: 10px 120px 0px 0px;
+        padding: 15px 33px 70px 30px;
+        border: white;
+        border-radius: 15px;
+        outline: none;
+    }
+    
+    #submit{
+        background-color: #B20033;
+        float: right;
+        margin: 10px 120px 0px 0px;
+        padding: 10px 80px 10px 80px;
+        border-radius: 15px;
+        border: white;
+        outline: none;
+        color: white;
+        font-family: 'poppins';
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+
+
+    
+}
